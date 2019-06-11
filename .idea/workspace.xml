@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6baf3eb6-dff5-4c0c-b5a4-23f2207c293e" name="Default" comment="上">
+    <list default="true" id="6baf3eb6-dff5-4c0c-b5a4-23f2207c293e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test-web-20170418.iws" />
@@ -716,7 +716,7 @@
       <workItem from="1560257573830" duration="134000" />
       <workItem from="1560257742037" duration="68000" />
       <workItem from="1560257814416" duration="59000" />
-      <workItem from="1560257877321" duration="521000" />
+      <workItem from="1560257877321" duration="572000" />
     </task>
     <task id="LOCAL-00001" summary="上传sql">
       <created>1560258161058</created>
@@ -724,11 +724,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560258161058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="上">
+      <created>1560258407522</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560258407522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123667000" />
+    <option name="totallyTimeSpent" value="123718000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -802,7 +808,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="上传sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传sql" />
+    <MESSAGE value="上" />
+    <option name="LAST_COMMIT_MESSAGE" value="上" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
