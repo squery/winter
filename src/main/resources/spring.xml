@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.zy"/>
+
+    <!--<context:property-placeholder/>这个基于命名空间的配置，
+    其实内部就是创建一个PropertyPlaceholderConfigurer Bean而已。
+    换句话说，即Spring容器仅允许最多定义一个PropertyPlaceholderConfigurer
+    (或<context:property-placeholder/>)，其余的会被Spring忽略掉（其实Spring如果提供一个警告就好了） -->
+    <context:property-placeholder
+            location="classpath:enviroment/test.properties,classpath:outerconfig/devconfig.properties"
+            ignore-unresolvable="true"/>
+
+    <bean id="devConifg" class="com.zy.dto.DevConfig">
+        <property name="host" value="${devip}"/>
+        <property name="port" value="${devport}"/>
+        <property name="subDevPole" value="${sub_dev_poles}"/>
+        <property name="subCollectType" value="${sub_collect_type}"/>
+    </bean>
+
+
+</beans>
