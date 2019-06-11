@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="test-web-20170418:war exploded">
-    <output-path>$PROJECT_DIR$/target/hello-maven</output-path>
+  <artifact type="exploded-war" name="test-winter:war exploded">
+    <output-path>$PROJECT_DIR$/target/test-winter</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

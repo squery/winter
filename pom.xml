@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.squery.mymven</groupId>
-    <artifactId>hello-maven</artifactId>
+    <artifactId>test-winter</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>hello-maven Maven Webapp</name>
+    <name>test-winter Webapp</name>
     <url>http://maven.apache.org</url>
 
 
@@ -265,7 +265,7 @@
     </dependencies>
 
     <build>
-        <finalName>hello-maven</finalName>
+        <finalName>test-winter</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
