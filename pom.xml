@@ -28,7 +28,7 @@
         <druid-version>1.0.15</druid-version>
 
         <commons-collections-version>1.0</commons-collections-version>
-        <commons-fileupload-version>1.2.2</commons-fileupload-version>
+        <commons-fileupload-version>1.3.3</commons-fileupload-version>
         <apache.commons-version>3.1</apache.commons-version>
         <commons-codec-version>1.6</commons-codec-version>
 
